@@ -1,0 +1,34 @@
+.carrusel-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px 0;
+  width: 100%;
+}
+
+.imagenes-carrusel {
+  display: flex;
+  gap: 20px; 
+  overflow: hidden;
+  width: 90%; 
+}
+
+.imagen-carrusel {
+  width: 300px;
+  height: 230px;
+  object-fit: cover;
+  border-radius: 0; 
+}
+
+.arrow-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 2.5rem; 
+  color: #5b393f;
+  transition: color 0.3s ease;
+}
+
+.arrow-button:hover {
+  color: #a06068;
+}
