@@ -8,11 +8,22 @@
 }
 
 .card {
-  background-color:#6c4c52;
-  /* border-radius: 10px; */
+  background-color: #6c4c52;
   box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
   padding: 16px;
   text-align: center;
+  text-decoration: none;
+  transition: transform 0.2s ease;
+  display: block;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+.card-title,
+.card-desc {
+  color: white;
 }
 
 .card-img {
@@ -22,12 +33,12 @@
   /* border-radius: 8px; */
 }
 
-.card-title {
+/* .card-title {
   margin-top: 12px;
   font-size: 1.2rem;
   font-weight: bold;
   color: white;
-}
+} */
 
 .card-desc {
   font-size: 0.95rem;

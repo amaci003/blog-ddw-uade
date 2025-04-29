@@ -4,13 +4,20 @@ import Galeria from './componentes/NavBar';
 import Carrusel from './componentes/Carrusel'; 
 import Image1 from './assets/Image1.jpg';
 import Image3 from './assets/Image3.jpg';
-import Categorias from './componentes/Categorias'
+import Categorias from './componentes/Categorias';
 
+import PrimerBlog from './blogs/PrimerBlog';
+import SegundoBlog from './blogs/SegundoBlog';
+import TercerBlog from './blogs/TercerBlog';
+import CuartoBlog from './blogs/CuartoBlog';
+import QuintoBlog from './blogs/QuintoBlog';
+import SextoBlog from './blogs/SextoBlog';
 
-function App() {
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
+function Home() {
   return (
-    <div className="App">
-
+    <>
       <Galeria />
 
       <div className="div-contenedor">
@@ -36,17 +43,28 @@ function App() {
           </p>
         </div>
       </div>
+
       <h2 className="titulo-seccion">Bienvenido</h2>
-      
-      <Categorias/>
-
+      <Categorias />
       <h2 className="titulo-seccion-grueso">Link a posteos</h2>
+      <Carrusel />
+    </>
+  );
+}
 
-{/* TODO: falta armar el css de ese p(ver de usare sx={{ }} para ahorrar lineas), meter nuevo className. debe ser breve descripcion finito!!!!
-       <p className="subtitulo-secundario">Posteos sobre temas variados</p> */}
-       
-      <Carrusel /> 
-    </div>
+function App() {
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/blog/1" element={<PrimerBlog />} />
+        <Route path="/blog/2" element={<SegundoBlog />} />
+        <Route path="/blog/3" element={<TercerBlog />} />
+        <Route path="/blog/4" element={<CuartoBlog />} />
+        <Route path="/blog/5" element={<QuintoBlog />} />
+        <Route path="/blog/6" element={<SextoBlog />} />
+      </Routes>
+    </Router>
   );
 }
 
