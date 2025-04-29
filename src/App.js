@@ -1,16 +1,17 @@
 import React from 'react';
 import './App.css';
-import Navbar from './componentes/NavBar';
-import Carrusel from './componentes/Carrusel';
+import Galeria from './componentes/NavBar';
+import Carrusel from './componentes/Carrusel'; 
 import Image1 from './assets/Image1.jpg';
 import Image3 from './assets/Image3.jpg';
+import Categorias from './componentes/Categorias'
 
 
 function App() {
   return (
     <div className="App">
 
-      <Navbar />
+      <Galeria />
 
       <div className="div-contenedor">
         <img src={Image1} alt="Foto Cordoba" className="imagen" />
@@ -36,8 +37,15 @@ function App() {
         </div>
       </div>
       <h2 className="titulo-seccion">Bienvenido</h2>
-      <Carrusel />
+      
+      <Categorias/>
 
+      <h2 className="titulo-seccion-grueso">Link a posteos</h2>
+
+{/* TODO: falta armar el css de ese p(ver de usare sx={{ }} para ahorrar lineas), meter nuevo className. debe ser breve descripcion finito!!!!
+       <p className="subtitulo-secundario">Posteos sobre temas variados</p> */}
+       
+      <Carrusel /> 
     </div>
   );
 }

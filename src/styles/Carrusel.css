@@ -1,34 +1,36 @@
-.carrusel-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 40px 0;
+.galeria-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 40px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.card {
+  background-color:#6c4c52;
+  /* border-radius: 10px; */
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+  padding: 16px;
+  text-align: center;
+}
+
+.card-img {
   width: 100%;
-}
-
-.imagenes-carrusel {
-  display: flex;
-  gap: 20px; 
-  overflow: hidden;
-  width: 90%; 
-}
-
-.imagen-carrusel {
-  width: 300px;
-  height: 230px;
+  height: 180px;
   object-fit: cover;
-  border-radius: 0; 
+  /* border-radius: 8px; */
 }
 
-.arrow-button {
-  background: none;
-  border: none;
-  cursor: pointer;
-  font-size: 2.5rem; 
-  color: #5b393f;
-  transition: color 0.3s ease;
+.card-title {
+  margin-top: 12px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: white;
 }
 
-.arrow-button:hover {
-  color: #a06068;
+.card-desc {
+  font-size: 0.95rem;
+  margin-top: 8px;
+  color: white;
 }
