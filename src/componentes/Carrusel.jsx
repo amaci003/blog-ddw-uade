@@ -9,12 +9,12 @@ import Imagen9 from '../assets/Imagen9.jpg';
 import '../styles/Carrusel.css';
 
 const data = [
-  { img: Image4, title: "Post 1", desc: "Descripción del post 1", link: "/blog/1" },
-  { img: Image5, title: "Post 2", desc: "Descripción del post 2", link: "/blog/2" },
-  { img: Image6, title: "Post 3", desc: "Descripción del post 3", link: "/blog/3" },
-  { img: Image7, title: "Post 4", desc: "Descripción del post 4", link: "/blog/4" },
-  { img: Imagen8, title: "Post 5", desc: "Descripción del post 5", link: "/blog/5" },
-  { img: Imagen9, title: "Post 6", desc: "Descripción del post 6", link: "/blog/6" },
+  { img: Image4, title: "Dudas existencias de un Dev en Formacion", desc: "Sentirse inutil te hace util", link: "/blog/1" },
+  { img: Image5, title: "Mood de la semana", desc: "7 dias de reflexion", link: "/blog/2" },
+  { img: Image6, title: "WishList de otras vidas", desc: "Proximo blog: me internan en el Borda", link: "/blog/3" },
+  { img: Image7, title: "Cancion de hoy", desc: "La influencia de la musica", link: "/blog/4" },
+  { img: Imagen8, title: "Soledad", desc: "Enfrentarse a uno mismo", link: "/blog/5" },
+  { img: Imagen9, title: "Tecnologia y ser mujer", desc: "Como trabajar en desarrollo sin morir en el intento", link: "/blog/6" },
 ];
 
 const Galeria = () => {
