@@ -6,6 +6,8 @@ import Image1 from './assets/Image1.jpg';
 import Image3 from './assets/Image3.jpg';
 import Categorias from './componentes/Categorias';
 
+import Suscribite from './pages/Suscribite';
+
 import PrimerBlog from './blogs/PrimerBlog';
 import SegundoBlog from './blogs/SegundoBlog';
 import TercerBlog from './blogs/TercerBlog';
@@ -54,9 +56,10 @@ function Home() {
 
 function App() {
   return (
-    <Router>
+     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/suscribite" element={<Suscribite />} />
         <Route path="/blog/1" element={<PrimerBlog />} />
         <Route path="/blog/2" element={<SegundoBlog />} />
         <Route path="/blog/3" element={<TercerBlog />} />

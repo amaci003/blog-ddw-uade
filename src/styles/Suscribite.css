@@ -1,0 +1,57 @@
+.suscribite-container {
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(91, 57, 63, 0.2); /* tono bordó suave */
+  font-family: Arial, sans-serif;
+  color: #5b393f;
+}
+
+.suscribite-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.suscribite-form input[type="text"],
+.suscribite-form input[type="email"],
+.suscribite-form input[type="tel"] {
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  color: #5b393f;
+}
+
+.suscribite-form input::placeholder {
+  color: #a87c84;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.95rem;
+  color: #5b393f;
+}
+
+.suscribite-form input[type="checkbox"] {
+  accent-color: #5b393f;
+}
+
+.suscribite-form button {
+  padding: 0.8rem;
+  background-color: #5b393f;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.suscribite-form button:hover {
+  background-color: #31282a;
+}

@@ -1,19 +1,23 @@
 import React from 'react';
 import '../styles/NavBar.css';
 import { AppBar, Toolbar, Typography, Button } from '@mui/material'; 
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     return (
-      <AppBar position="sticky" sx={{ backgroundColor: '#5b393f' }}>
-        <Toolbar>
-          <Typography variant="h6" sx={{ flexGrow: 1 }}>
-            Abril Maci
-          </Typography>
-          <Button sx={styles.button}>Home</Button>
-          <Button sx={styles.button}>About</Button>
-          <Button sx={styles.button}>Contact</Button>
-        </Toolbar>
-      </AppBar>
+       <AppBar position="sticky" sx={{ backgroundColor: '#5b393f' }}>
+      <Toolbar>
+        <Typography variant="h6" sx={{ flexGrow: 1 }}>
+          Abril Maci
+        </Typography>
+        <Button component={Link} to="/" sx={styles.button}>
+          Home
+        </Button>
+        <Button component={Link} to="/suscribite" sx={styles.button}>
+          Suscribite
+        </Button>
+      </Toolbar>
+    </AppBar>
     );
   };
   
