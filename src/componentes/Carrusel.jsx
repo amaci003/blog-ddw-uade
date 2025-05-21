@@ -9,8 +9,8 @@ import Imagen9 from '../assets/Imagen9.jpg';
 import '../styles/Carrusel.css';
 
 const data = [
-  { img: Image4, title: "Dudas existencias de un Dev en Formacion", desc: "Sentirse inutil te hace util", link: "/blog/1" },
-  { img: Image5, title: "Mood de la semana", desc: "7 dias de reflexion", link: "/blog/2" },
+  { img: Image4, title: "Dudas existenciales de un Dev en Formacion", desc: "Sentirse inutil te hace util", link: "/blog/1" },
+  { img: Image5, title: "Todos los caminos llevan a Argot", desc: "7 dias de reflexion", link: "/blog/2" },
   { img: Image6, title: "WishList de otras vidas", desc: "Proximo blog: me internan en el Borda", link: "/blog/3" },
   { img: Image7, title: "Cancion de hoy", desc: "La influencia de la musica", link: "/blog/4" },
   { img: Imagen8, title: "Soledad", desc: "Enfrentarse a uno mismo", link: "/blog/5" },

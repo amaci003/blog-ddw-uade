@@ -18,13 +18,7 @@ const PrimerBlog = () => {
           <h3 className="h3-2">Fusionando tecnología, arte y cultura global</h3>
         </div>
       </div>
-{/* 
-      <div style={{ padding: '2rem' }}>
-        <h1>Primer Post</h1>
-        <p>Este es el contenido de mi primer post del blog.</p>
-      </div>
- */    }
- 
+
       </>
       );
   };
