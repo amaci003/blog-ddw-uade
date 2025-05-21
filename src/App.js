@@ -48,7 +48,7 @@ function Home() {
 
       <h2 className="titulo-seccion">Bienvenido</h2>
       <Categorias />
-      <h2 className="titulo-seccion-grueso">Link a posteos</h2>
+      <h2 className="titulo-seccion-grueso"> - Link a posteos -</h2>
       <Carrusel />
     </>
   );
