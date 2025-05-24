@@ -1,4 +1,4 @@
-import '../styles/Blogs.css';
+import '../styles/blog.css';
 import NavBar from '../componentes/NavBar';
 import Image1 from '../assets/Image1.jpg';
 import '../App.css';

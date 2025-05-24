@@ -1,20 +1,50 @@
-import '../styles/Blogs.css';
+import '../styles/blog.css';
 import NavBar from '../componentes/NavBar';
-import Image1 from '../assets/Image1.jpg';
 import '../App.css';
+
+import Image1 from '../assets/empanadas.jpg';
 
 const SegundoBlog = () => {
   return (
     <>
       <NavBar />
 
-      <div className="div-contenedor">
-        <img src={Image1} alt="Foto Cordoba" className="imagen" />
-        <h1 className="h1">Blog 2: Explorando el diseño</h1>
-        <h3 className="h3">Más allá de lo visual, diseño con intención</h3>
-        <div className="div-franja">
-          <h3 className="h3-2">Reflexiones, inspiraciones y procesos creativos</h3>
+      <div className="div-contenedorBis">
+        <h1 className="blog-title">Todos los caminos llevan a Argot</h1>
+
+        <p className="blog-text">
+          En este nuevo capítulo, me tomé una licencia. Literal. Cerré VSCode, Intellij, abrí la heladera y terminé en una entrevista con Héctor Yépez: cocinero, poeta de la masa, y el alma detrás de <strong>Argot</strong>, un refugio de empanadas que más que vender comida, comparte historias.
+        </p>
+
+        <div className="blog-image-container">
+          <img src={Image1} alt="Empanadas de Héctor" className="blog-image-float" />
+          <p className="blog-text">
+            Héctor no solo cocina. Abraza con sus empanadas. Dice que “amasar es como querer: si no lo hacés con las manos, no cuenta”. Y esa frase quedó rebotando en mí todo el día. Le pregunté de dónde viene tanta pasión, y la respuesta fue simple: amor.
+          </p>
         </div>
+
+        <h2 className="blog-subtitle">Entrevista: amor entre tapas y relleno</h2>
+
+        <p className="blog-text"><strong>— ¿Cómo nace Argot?</strong></p>
+        <p className="blog-text">— De un desamor. Después de una ruptura fea, me refugié en la cocina. Empecé a hacer empanadas como terapia, como excusa para invitar a gente a mi casa. Y sin darme cuenta, estaba armando una red de afectos, de charlas compartidas. Argot nació ahí, en ese fuego lento.</p>
+
+        <p className="blog-text"><strong>— ¿Por qué el nombre?</strong></p>
+        <p className="blog-text">— Porque todos tenemos nuestro idioma secreto, ¿no? Y cuando algo te hace bien, querés que sea parte de tu argot. Las empanadas son eso: una forma íntima de decir “te quiero”.</p>
+
+        <p className="blog-text"><strong>— ¿Cuál es el ingrediente que no puede faltar?</strong></p>
+        <p className="blog-text">— El cariño. Parece cursi, pero posta. Si no estás presente cuando cocinás, la empanada lo delata. Te lo juro. Sale seca, o triste.</p>
+
+        <p className="blog-text"><strong>— ¿Qué aprendiste de este camino?</strong></p>
+        <p className="blog-text">— Que amar también es darle forma a algo con tus manos. Una relación, un proyecto, una empanada. Y que todos, de alguna forma, estamos buscando a dónde volver. El amor no siempre está en una persona. A veces está en una receta.</p>
+
+        <h2 className="blog-subtitle">Reflexión final</h2>
+        <p className="blog-text">
+          “Todos los caminos llevan a Argot” no es solo una frase. Es una certeza: cuando algo está hecho con sentido, se convierte en hogar. Este blog se trata de diseño web, sí. Pero también de diseño de vida. Y hoy aprendí que, incluso en medio del código, hay lugar para el amor… y para una buena empanada.
+        </p>
+
+        <footer className="blog-footer">
+          Publicado por @abrilmaci2003 • 23/05/2021 20:55hs
+        </footer>
       </div>
     </>
   );

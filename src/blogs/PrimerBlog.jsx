@@ -1,4 +1,4 @@
-import '../styles/Blogs.css';
+
 import NavBar from '../componentes/NavBar';
 import estilos from '../styles/estilosBlogs';
 import perro from '../assets/perro.png';
@@ -97,7 +97,7 @@ const PrimerBlog = () => {
           fontSize: '0.9rem',
           color: '#777',
         }}>
-          Gracias por leer. Nos vemos en el próximo post ✨
+          Gracias por leer. Nos vemos en el próximo post 
         </footer>
       </div>
     </>
