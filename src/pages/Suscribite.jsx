@@ -105,7 +105,7 @@ const Suscribite = () => {
         }}
       >
         <Alert onClose={handleCloseSnackbar} severity="success" sx={{ width: '100%' }}>
-          Formulario enviado exitosamente!
+          
           Gracias por suscribirte
         </Alert>
       </Snackbar>
