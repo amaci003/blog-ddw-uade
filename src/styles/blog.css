@@ -47,3 +47,14 @@
   color: #5b393f;
   clear: both;
 }
+
+.div-contenedorBis a {
+  color: #5b393f;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.div-contenedorBis a:hover {
+  text-decoration: underline;
+  opacity: 0.85;
+}
