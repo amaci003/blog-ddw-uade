@@ -2,7 +2,12 @@ import '../styles/blog.css';
 import NavBar from '../componentes/NavBar';
 import '../App.css';
 
+import estilos from '../styles/estilosBlogs';
+
+import { useNavigate } from 'react-router-dom';
+
 const QuintoBlog = () => {
+  const navigate = useNavigate();
   return (
     <>
 
@@ -44,6 +49,15 @@ const QuintoBlog = () => {
           <p className="blog-text">
             No tengo una fórmula. Solo sé que la soledad también puede ser una forma de amor propio. No hay que llenarla rápido. Hay que habitarla. A veces está llena de silencio, pero a veces también se siente como libertad.
           </p>
+
+          <div style={{ display: 'flex', justifyContent: 'center', marginTop: '40px' }}>
+          <button
+            style={estilos.botonPrimario}
+            onClick={() => navigate('/')}
+          >
+            ← Volver al inicio
+          </button>
+        </div>
 
           <div className="blog-footer">
             Si estás pasando por algo parecido, te abrazo desde este lado de la pantalla. No estás tan sola como pensás.

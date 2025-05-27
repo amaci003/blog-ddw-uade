@@ -2,7 +2,14 @@ import '../styles/blog.css';
 import NavBar from '../componentes/NavBar';
 import viajera from '../assets/Image4.jpg';
 
+
+import estilos from '../styles/estilosBlogs';
+
+import { useNavigate } from 'react-router-dom';
+
 const TercerBlog = () => {
+
+  const navigate = useNavigate();
   return (
     <>
       <NavBar />
@@ -39,6 +46,15 @@ const TercerBlog = () => {
         <p className="blog-text">
           Y sin embargo, acá estoy. Codeando este blog. Tal vez porque dentro mío coexisten todas esas versiones de mí... en un div bien cerrado.
         </p>
+
+        <div style={{ display: 'flex', justifyContent: 'center', marginTop: '40px' }}>
+          <button
+            style={estilos.botonPrimario}
+            onClick={() => navigate('/')}
+          >
+            ← Volver al inicio
+          </button>
+        </div>
 
         <div className="blog-footer">
           Escribí este blog para recordarme que los sueños no compilan solos. A veces hay que salirse del sistema. O al menos, imaginarlo.

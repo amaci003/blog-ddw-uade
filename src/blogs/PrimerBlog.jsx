@@ -60,17 +60,17 @@ const PrimerBlog = () => {
           </blockquote>
 
           <p style={estilos.h3}>
-            Y mientras tanto… estoy formándome. O deformándome, según el día.
+            Y mientras tanto… estoy formándome. O deformándome, depende el día.
           </p>
 
           <p style={estilos.h3}>
             ¿Quiero crecer en tech? Sí.<br />
-            ¿También quiero desaparecer en una playa sin Wi-Fi por dos meses? Absolutamente.<br />
-            ¿Es compatible? Estoy intentando descubrirlo.
+            Es complicado? Tambien. Con cada dev que hablo del tema llego a lo mismo: NUNCA se termina de aprender, hay informacion nueva todo el tiempo y es un While True infinito <br />
+            ¿Es compatible? Estamos en eso.
           </p>
 
           <p style={estilos.h3}>
-            Si llegaste hasta acá, probablemente estés igual que yo.<br />
+            Si llegaste hasta acá, probablemente estés igual que yo (o no)<br />
             Así que nada, bienvenida/o a este blog y a este caos hermoso que es intentar ser dev sin
             perder la cabeza (o al menos, no del todo).
           </p>

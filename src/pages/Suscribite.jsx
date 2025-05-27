@@ -88,7 +88,7 @@ const Suscribite = () => {
             />
             ¿Deseás recibir novedades todos los viernes?
           </label>
-          <button type="submit">Enviar</button>
+          <button type="submit">SUSCRIBIRSE</button>
         </form>
       </div>
       

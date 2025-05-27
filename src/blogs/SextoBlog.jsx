@@ -2,7 +2,12 @@ import '../styles/blog.css';
 import NavBar from '../componentes/NavBar';
 import '../App.css';
 
+import estilos from '../styles/estilosBlogs';
+
+import { useNavigate } from 'react-router-dom';
+
 const SextoBlog = () => {
+  const navigate = useNavigate();
   return (
     <>
       <NavBar />
@@ -39,6 +44,15 @@ const SextoBlog = () => {
         <p className="blog-text">
           Este blog no intenta ser una bandera, sino una pausa para reconocer que sí, es posible estar en tecnología siendo mujer, siendo joven, siendo nueva. Y que no hay una sola forma de hacerlo bien.
         </p>
+
+        <div style={{ display: 'flex', justifyContent: 'center', marginTop: '40px' }}>
+          <button
+            style={estilos.botonPrimario}
+            onClick={() => navigate('/')}
+          >
+            ← Volver al inicio
+          </button>
+        </div>
 
         <div className="blog-footer">
           A quienes estén comenzando: tengan paciencia con ustedes mismas. Hay lugar para todas las formas de pensar, crear y construir desde lo digital.
