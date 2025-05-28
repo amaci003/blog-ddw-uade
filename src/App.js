@@ -1,10 +1,11 @@
-import React from 'react';
 import './App.css';
 import Galeria from './componentes/NavBar';
 import Carrusel from './componentes/Carrusel'; 
 import Image1 from './assets/Image1.jpg';
 import Image3 from './assets/Image3.jpg';
 import Categorias from './componentes/Categorias';
+
+import { Box } from '@mui/material';
 
 import Suscribite from './pages/Suscribite';
 
@@ -22,14 +23,14 @@ function Home() {
     <>
       <Galeria />
 
-      <div className="div-contenedor">
+      <Box className="div-contenedor">
         <img src={Image1} alt="Foto Cordoba" className="imagen" />
         <h1 className="h1">Bienvenidos a mi Blog!</h1>
         <h3 className="h3">Un poco de mi en cada click</h3>
         <div className="div-franja">
           <h3 className="h3-2">Fusionando tecnología, arte y cultura global</h3>
         </div>
-      </div>
+      </Box>
 
       <div className="div-segundo-contenedor">
         <img src={Image3} alt="foto cordoba 2" className="img2" />
