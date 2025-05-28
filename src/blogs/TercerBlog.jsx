@@ -25,26 +25,23 @@ const TercerBlog = () => {
 
         <h2 className="blog-subtitle">1. Guardaparques en la Patagonia</h2>
         <p className="blog-text">
-          Nada de deploys. Solo el viento, los árboles y un mate compartido con algún zorro curioso. Dormir en una cabaña sin WiFi y escuchar historias del bosque. Actualizaciones: solo las del clima.
-        </p>
+          Nada de deploys o bugs, estaria todo el dia respirando y viendo naturaleza</p>
 
-        <h2 className="blog-subtitle">2. Curadora de un museo antiguo en Italia</h2>
+        <h2 className="blog-subtitle">2. Trabajadora de un museo antiguo en Italia</h2>
         <p className="blog-text">
-          En vez de GitHub, una libreta de campo con anotaciones a mano. En vez de dark mode, vitrales del siglo XIII. Y mi mayor bug sería encontrar una obra sin firma.
-        </p>
+          En vez de GitHub, podria haber nacido en Italia y estaria dando clases de historia por ahi</p>
 
-        <h2 className="blog-subtitle">3. Ceramista en un pueblo hippie</h2>
+        <h2 className="blog-subtitle">3. Profe de ceramica en Chapadmalal</h2>
         <p className="blog-text">
-          Sin deadlines, solo arcilla, fuego y formas imperfectas. Reírse de los algoritmos y abrazar el caos del barro. Vender tazas con frases incoherentes y mucho amor.
-        </p>
+          Sin deadlines, solo arcilla, fuego y formas imperfectas, cada tanto algun dev nomade digital se acercaria a vivir la experiencia y le diria q no entiendo nada y que nunca entraria en algo asi</p>
 
-        <h2 className="blog-subtitle">4. Tarotista nómade en ferias de Latinoamérica</h2>
+        <h2 className="blog-subtitle">4. Tarotista en ferias </h2>
         <p className="blog-text">
-          Cambiaría las funciones por intuición. Haría deploys de energía en cada lectura, debugueando el alma de la gente con cartas y miradas. ¿La nube? Sí, pero de incienso.
+          Cambiaría las funciones por intuición. No niego ni afirmo que en mi vida actual SI tiro las cartas... pero podria vivir de esto?
         </p>
 
         <p className="blog-text">
-          Y sin embargo, acá estoy. Codeando este blog. Tal vez porque dentro mío coexisten todas esas versiones de mí... en un div bien cerrado.
+          Pero bueno... aca estoy, actualizando mi blog de tecnologia, si eventualmente vuelvo a nacer o me echan drasticamente ya saben donde buscarme (En la Patagonia tirando las cartas en ferias dando clases de ceramica a nomades digitales)
         </p>
 
         <div style={{ display: 'flex', justifyContent: 'center', marginTop: '40px' }}>
@@ -57,7 +54,7 @@ const TercerBlog = () => {
         </div>
 
         <div className="blog-footer">
-          Escribí este blog para recordarme que los sueños no compilan solos. A veces hay que salirse del sistema. O al menos, imaginarlo.
+          Escribí este blog para recordarme que los sueños no compilan solos. A veces hay que salirse del sistema. O algo asi.
         </div>
       </div>
     </>

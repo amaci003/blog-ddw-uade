@@ -16,7 +16,7 @@ const SextoBlog = () => {
         <h1 className="blog-title">Ser mujer y tecnología</h1>
 
         <p className="blog-text">
-          Desde que empecé en el mundo tech, me encontré con muchos desafíos… y muchas sorpresas. Formo parte de un equipo en el que soy la única mujer y también la más joven. No lo digo como queja, sino como dato curioso que, con el tiempo, se volvió parte de mi identidad profesional.
+          Desde que empecé en el mundo tech, me encontré con muchos desafíos… y muchas sorpresas. Formo parte de un equipo en el que soy la única mujer y también la más joven. No lo digo como queja, sino como dato curioso que, con el tiempo, se volvio mi reflexion diaria, me di cuenta que me intimidaba hablar en reuniones o chats de trabajo por la vision que puedan tener de mi.
         </p>
 
         <p className="blog-text">
