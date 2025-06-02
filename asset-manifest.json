@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/blog-ddw-uade/static/css/main.b4d98775.css",
-    "main.js": "/blog-ddw-uade/static/js/main.f125f6e8.js",
+    "main.js": "/blog-ddw-uade/static/js/main.6cffd931.js",
     "static/js/453.f3957f7c.chunk.js": "/blog-ddw-uade/static/js/453.f3957f7c.chunk.js",
     "static/media/Imagen10.jpg": "/blog-ddw-uade/static/media/Imagen10.a023962c432a5673e8f0.jpg",
     "static/media/Imagen11.jpg": "/blog-ddw-uade/static/media/Imagen11.12dbe5f0eee71de2a2c8.jpg",
@@ -18,11 +18,11 @@
     "static/media/Imagen12.jpg": "/blog-ddw-uade/static/media/Imagen12.d7a8f1cdce430df983f2.jpg",
     "index.html": "/blog-ddw-uade/index.html",
     "main.b4d98775.css.map": "/blog-ddw-uade/static/css/main.b4d98775.css.map",
-    "main.f125f6e8.js.map": "/blog-ddw-uade/static/js/main.f125f6e8.js.map",
+    "main.6cffd931.js.map": "/blog-ddw-uade/static/js/main.6cffd931.js.map",
     "453.f3957f7c.chunk.js.map": "/blog-ddw-uade/static/js/453.f3957f7c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b4d98775.css",
-    "static/js/main.f125f6e8.js"
+    "static/js/main.6cffd931.js"
   ]
 }
