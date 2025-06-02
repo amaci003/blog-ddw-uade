@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/blog-ddw-uade/static/css/main.b4d98775.css",
+    "main.js": "/blog-ddw-uade/static/js/main.f125f6e8.js",
+    "static/js/453.f3957f7c.chunk.js": "/blog-ddw-uade/static/js/453.f3957f7c.chunk.js",
+    "static/media/Imagen10.jpg": "/blog-ddw-uade/static/media/Imagen10.a023962c432a5673e8f0.jpg",
+    "static/media/Imagen11.jpg": "/blog-ddw-uade/static/media/Imagen11.12dbe5f0eee71de2a2c8.jpg",
+    "static/media/Imagen9.jpg": "/blog-ddw-uade/static/media/Imagen9.12dbe5f0eee71de2a2c8.jpg",
+    "static/media/empanadas.jpg": "/blog-ddw-uade/static/media/empanadas.f9fda81aad12f1b8ebc6.jpg",
+    "static/media/Image5.jpg": "/blog-ddw-uade/static/media/Image5.aac2846edf7effa89e8c.jpg",
+    "static/media/Image4.jpg": "/blog-ddw-uade/static/media/Image4.96c9136ea2c1573ef6f6.jpg",
+    "static/media/Image6.jpg": "/blog-ddw-uade/static/media/Image6.d7fa106913bc1455fae2.jpg",
+    "static/media/Image7.jpg": "/blog-ddw-uade/static/media/Image7.f47d9c534cbe7c3246a6.jpg",
+    "static/media/Image1.jpg": "/blog-ddw-uade/static/media/Image1.e2f0b0a564162aff43a6.jpg",
+    "static/media/Image3.jpg": "/blog-ddw-uade/static/media/Image3.f8ccccd6290126bdb19d.jpg",
+    "static/media/perro.png": "/blog-ddw-uade/static/media/perro.c091193c6bb5306dde0b.png",
+    "static/media/Imagen8.jpg": "/blog-ddw-uade/static/media/Imagen8.8de69355429f7bd507c3.jpg",
+    "static/media/Imagen12.jpg": "/blog-ddw-uade/static/media/Imagen12.d7a8f1cdce430df983f2.jpg",
+    "index.html": "/blog-ddw-uade/index.html",
+    "main.b4d98775.css.map": "/blog-ddw-uade/static/css/main.b4d98775.css.map",
+    "main.f125f6e8.js.map": "/blog-ddw-uade/static/js/main.f125f6e8.js.map",
+    "453.f3957f7c.chunk.js.map": "/blog-ddw-uade/static/js/453.f3957f7c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b4d98775.css",
+    "static/js/main.f125f6e8.js"
+  ]
+}
