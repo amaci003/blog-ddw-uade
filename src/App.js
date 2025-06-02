@@ -16,7 +16,8 @@ import CuartoBlog from './blogs/CuartoBlog';
 import QuintoBlog from './blogs/QuintoBlog';
 import SextoBlog from './blogs/SextoBlog';
 
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+/* import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'; */
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 
 function Home() {
   return (
