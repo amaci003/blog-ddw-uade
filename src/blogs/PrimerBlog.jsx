@@ -65,7 +65,7 @@ const PrimerBlog = () => {
 
           <p style={estilos.h3}>
             ¿Quiero crecer en tech? Sí.<br />
-            Es complicado? Tambien. Con cada dev que hablo del tema llego a lo mismo: NUNCA se termina de aprender, hay informacion nueva todo el tiempo y es un While True infinito <br />
+            Es complicado? También. Con cada dev que hablo del tema llego a lo mismo: NUNCA se termina de aprender, hay información nueva todo el tiempo y es un While True infinito <br />
             ¿Es compatible? Estamos en eso.
           </p>
 
