@@ -19,7 +19,7 @@ const CuartoBlog = () => {
         <h2 className="blog-subtitle">Canción de hoy: Planeando el tiempo</h2>
 
         <p className="blog-text">
-          Esta semana no tengo ganas de contar anecdotas o algo extenso para pensar. Hoy les dejo esta cancion que no me puedo sacar de la cabeza</p>
+          Esta semana no tengo ganas de contar anécdotas o algo extenso para pensar. Hoy les dejo esta canción que no me puedo sacar de la cabeza</p>
         <div style={{ display: 'flex', justifyContent: 'center', margin: '30px 0' }}>
           <iframe
             width="560"

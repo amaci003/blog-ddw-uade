@@ -25,23 +25,23 @@ const TercerBlog = () => {
 
         <h2 className="blog-subtitle">1. Guardaparques en la Patagonia</h2>
         <p className="blog-text">
-          Nada de deploys o bugs, estaria todo el dia respirando y viendo naturaleza</p>
+          Nada de deploys o bugs, estaría todo el día respirando y viendo naturaleza</p>
 
         <h2 className="blog-subtitle">2. Trabajadora de un museo antiguo en Italia</h2>
         <p className="blog-text">
-          En vez de GitHub, podria haber nacido en Italia y estaria dando clases de historia por ahi</p>
+          En vez de GitHub, podría haber nacido en Italia y estaría dando clases de historia por ahí</p>
 
         <h2 className="blog-subtitle">3. Profe de ceramica en Chapadmalal</h2>
         <p className="blog-text">
-          Sin deadlines, solo arcilla, fuego y formas imperfectas, cada tanto algun dev nomade digital se acercaria a vivir la experiencia y le diria q no entiendo nada y que nunca entraria en algo asi</p>
+          Sin deadlines, solo arcilla, fuego y formas imperfectas, cada tanto algun dev nómade digital se acercaría a vivir la experiencia y le diría que no entiendo nada y que nunca entraría en algo así</p>
 
         <h2 className="blog-subtitle">4. Tarotista en ferias </h2>
         <p className="blog-text">
-          Cambiaría las funciones por intuición. No niego ni afirmo que en mi vida actual SI tiro las cartas... pero podria vivir de esto?
+          Cambiaría las funciones por intuición. No niego ni afirmo que en mi vida actual SI tiro las cartas... pero podría vivir de esto?
         </p>
 
         <p className="blog-text">
-          Pero bueno... aca estoy, actualizando mi blog de tecnologia, si eventualmente vuelvo a nacer o me echan drasticamente ya saben donde buscarme (En la Patagonia tirando las cartas en ferias dando clases de ceramica a nomades digitales)
+          Pero bueno... acá estoy, actualizando mi blog de tecnología, si eventualmente vuelvo a nacer o me echan drasticamente ya saben donde buscarme (En la Patagonia tirando las cartas en ferias dando clases de cerámica a nómades digitales)
         </p>
 
         <div style={{ display: 'flex', justifyContent: 'center', marginTop: '40px' }}>
@@ -54,7 +54,7 @@ const TercerBlog = () => {
         </div>
 
         <div className="blog-footer">
-          Escribí este blog para recordarme que los sueños no compilan solos. A veces hay que salirse del sistema. O algo asi.
+          Escribí este blog para recordarme que los sueños no compilan solos. A veces hay que salirse del sistema. O algo así.
         </div>
       </div>
     </>
