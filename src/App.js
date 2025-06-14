@@ -19,6 +19,8 @@ import SextoBlog from './blogs/SextoBlog';
 /* import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'; */
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 
+import ScrollToTop from './componentes/ScrollToTop';
+
 function Home() {
   return (
     <>
@@ -59,6 +61,7 @@ function Home() {
 function App() {
   return (
      <Router>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/suscribite" element={<Suscribite />} />
